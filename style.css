@@ -1,11 +1,24 @@
 *{
     margin: 0px;
 }
+.nav-top{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    z-index: 999;
+    overflow;
+}
+.scroll-top{
+    position: fixed;
+    top: 70px;
+    background-color: white;
+    z-index: 999;
+}
 .nav-bar{
     height: 80px;
     position: relative;
     border-bottom: 2px solid lightgray ;
-    background-color: white;
+    /* background-color: white; */
    
 }
 .search-bar{
